@@ -1,0 +1,18 @@
+package packagejan;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.sun.xml.internal.ws.api.server.WebServiceContextDelegate;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+WebDriver driver=new FirefoxDriver();
+driver.manage().window().maximize();
+driver.get("https://opensource-demo.orangehrmlive.com/");
+
+	}
+
+}
